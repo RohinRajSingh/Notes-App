@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: "Playwrite GB S", cursive;
+    box-sizing:border-box;
+    
+}
+.container{
+    width:100%;
+    min-height:100vh;
+    background: linear-gradient(135deg ,#e1b487, #87ade5);
+    color:#fff;
+    padding-top:4%;
+    padding-left:10%;
+    
+   
+}
+.container h1{
+   display:flex;
+   align-items: center;
+   font-size: 30px;
+   font-weight:600;
+    
+}
+.container h1 img{
+    width:50px;
+
+}
+.container button img{
+    width:25px;
+    margin-right: 8px;
+
+}
+.container button{
+    display:flex;
+    align-items:center;
+    background: linear-gradient(#a7e824,#6af2b7);
+    color:white;
+    font-size: 15px;
+    outline:0;
+    border:0;
+    border-radius:40px;
+    padding: 15px 25px;
+    margin: 30px 0 20px;
+    cursor:pointer;
+    
+}
+.input-box{
+    position:relative;
+    width: 100%;
+    max-width: 800px;
+    background:white;
+    color:#333;
+    padding:20px;
+    margin:20px,0;
+    outline:none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.input-box img{
+    height:25px;
+    cursor:pointer;
+    position:absolute;
+    bottom:15px;
+    right:15px;
+}
+
+    @media (max-width: 760px) {
+        .input-box {
+            width: 100px; /* Example value, adjust as needed */
+      
+        }
+    
+    
+    .input-box img {
+        height: 25px;
+        cursor: pointer;
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .input-box {
+        width: 480px; /* Example value, adjust as needed */
+  
+    }
+
+
+.input-box img {
+    height: 25px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+}
