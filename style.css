@@ -81,7 +81,18 @@
         right: 15px;
     }
 }
-
+@media (max-width: 473px) {
+    .container {
+        padding-left: 5%; 
+        padding-top: 10%; 
+    }
+    
+    .input-box {
+        
+        padding: 15px; 
+        max-width: 90%;
+    }
+}
 @media (max-width: 1200px) {
     .input-box {
         width: 480px; /* Example value, adjust as needed */
